@@ -1,0 +1,14 @@
+### Prueba de inicio de sesión
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "nombreUsuario": "test",
+    "password": "contraseña"
+}
+
+### Prueba de acceso al dashboard
+GET http://localhost:3000/dashboard
+
+### Prueba de cierre de sesión
+GET http://localhost:3000/logout
